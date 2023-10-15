@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0;">
+    <style>
+        .social-icons {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+    <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+        <h1>Contact Us</h1>
+    </header>
+    <div style="max-width: 800px; margin: 20px auto; background-color: #fff; padding: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out to us with any questions or concerns.</p>
+        <ul>
+            <li>Email <a href="mailto:dearnomee@gmail.com">dearnomee@gmail.com</a></li>
+            <li>Phone: 03481993303</li>
+            <li>Address: Hostel NO 3 ,Rahat Abad,Peshawar ,Pakistan Main St, City, Country</li>
+        </ul>
+        <h2>Contact Form</h2>
+        <form action="process_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px;">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px;">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required style="width: 100%; height: 150px; padding: 10px;"></textarea>
+            <input type="submit" value="Submit" style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; cursor: pointer;">
+        </form>
+        <h2>Connect with Us</h2>
+        <p>Follow us on social media:</p>
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: flex; align-items: center; margin-right: 10px;">
+                <span class="social-icons" style="color: #1877f2;">&#xf09a;</span>
+                <a href="https://www.facebook.com/profile.php?id=100027985426385" style="text-decoration: none; color: #007bff;">
+                    Facebook
+                </a>
+            </li>
+            <li style="display: flex; align-items: center;">
+                <span class="social-icons" style="color: #e4405f;">&#xf16d;</span>
+                <a href="https://www.instagram.com/YourInstagramPage" style="text-decoration: none; color: #007bff;">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        &copy; 2023 Contact Us Page
+    </footer>
+</body>
+</html>
+
